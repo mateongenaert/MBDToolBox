@@ -40,6 +40,7 @@ ADD https://github.com/BenLangmead/bowtie2/releases/download/v2.2.6/bowtie2-2.2.
 ADD http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.5.4-1/sratoolkit.2.5.4-1-ubuntu64.tar.gz /opt/software/
 ADD https://pypi.python.org/packages/source/M/MACS/MACS-1.4.3.tar.gz /opt/software/
 
+
 WORKDIR /opt/software
 
 RUN unzip fastqc_v0.11.4.zip
@@ -53,6 +54,13 @@ RUN rm BamUtilLibStatGen.1.0.13.tgz
 
 RUN unzip bowtie2-2.2.6-linux-x86_64.zip && mv bowtie2-2.2.6 bowtie2
 RUN rm bowtie2-2.2.6-linux-x86_64.zip
+
+WORKDIR /opt/software/bowtie2/
+ADD ftp://ftp.ccb.jhu.edu/pub/data/bowtie2_indexes/hg19.zip /opt/software/bowtie2/
+RUN unzip hg19.zip
+RUN rm hg19.zip
+
+WORKDIR /opt/software
 
 RUN unzip picard-tools-1.140.zip && mv picard-tools-1.140 picard
 RUN rm picard-tools-1.140.zip
