@@ -9,7 +9,7 @@ Anneleen Decock, Maté Ongenaert, Wim Van Criekinge, Frank Speleman, Jo Vandesom
 - sratoolkit (v2.5.4-1) - NCBI toolkit to work with files from SRA (e.g. convert SRA to FASTQ)
 - fastqc (v0.11.4) - QC on raw sequencing reads (FASTQ files)
 - bowtie2 (v2.2.6) - maps reads to the reference genome (hg19 index files included as well)
-- samtools - tools to manipulate SAM files (used to sort/index BAM files)
+- samtools (v0.1.19) - tools to manipulate SAM files (used to sort/index BAM files)
 - picard (v1.140) - tools to manipulate next-generation sequencing formats (BAM files)(used to mark duplicate reads in the BAM file)
 - samstat (v1.5.1) - QC statistics on mapped reads (SAM/BAM files)
 - BamUtil (v1.0.13) - statistics and operations, QC on mapped reads (BAM files)
