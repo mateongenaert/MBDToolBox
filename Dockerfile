@@ -45,6 +45,7 @@ WORKDIR /opt/software
 
 RUN unzip fastqc_v0.11.4.zip
 RUN rm fastqc_v0.11.4.zip
+RUN chmod 755 /opt/software/FastQC/fastqc
 
 RUN tar zxvf samstat-1.5.1.tar.gz && mv samstat-1.5.1 samstat
 RUN rm samstat-1.5.1.tar.gz
@@ -57,6 +58,7 @@ RUN rm bowtie2-2.2.6-linux-x86_64.zip
 
 WORKDIR /opt/software/bowtie2/
 RUN curl ftp://ftp.ccb.jhu.edu/pub/data/bowtie2_indexes/hg19.zip -o hg19.zip
+RUN unzip hg19.zip
 RUN rm hg19.zip
 
 WORKDIR /opt/software
