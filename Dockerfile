@@ -56,8 +56,7 @@ RUN unzip bowtie2-2.2.6-linux-x86_64.zip && mv bowtie2-2.2.6 bowtie2
 RUN rm bowtie2-2.2.6-linux-x86_64.zip
 
 WORKDIR /opt/software/bowtie2/
-RUN curl 'ftp://ftp.ccb.jhu.edu/pub/data/bowtie2_indexes/hg19.zip ' -o hg19.zip /opt/software/bowtie2/
-RUN unzip hg19.zip
+RUN curl 'ftp://ftp.ccb.jhu.edu/pub/data/bowtie2_indexes/hg19.zip ' -o hg19.zip
 RUN rm hg19.zip
 
 WORKDIR /opt/software
