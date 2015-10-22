@@ -19,14 +19,14 @@ Anneleen Decock, Maté Ongenaert, Wim Van Criekinge, Frank Speleman, Jo Vandesom
 
 This toolbox works with all kinds of enrichment strategies, the example given here is based on a paired-end MBD-seq experiment on a primary neuroblastoma sample
 
-Steps:
-1. Get the SRA-file (SRA repository, NCBI) and convert it to FASTQ files (paired-end) (SRAtoolkit)
-2. Perform QC on the FASTQ raw reads (FastQC)
-3. Map reads to the human hg19 reference genome taking into account the paired-end nature (bowtie2)
-4. Sort and index the SAM/BAM files (samtools)
-5. Mark duplicates (PCR duplicates during library prep) (picard)
-6. Produce statistics and QC on BAM files (samstat, BamUtils)
-7. Call peaks to idnetify enriched regions, covered by MBD (MACS)
+### Steps:
+1. Get the SRA-file (SRA repository, NCBI) and convert it to FASTQ files (paired-end) (SRAtoolkit)</BR>
+2. Perform QC on the FASTQ raw reads (FastQC)</BR>
+3. Map reads to the human hg19 reference genome taking into account the paired-end nature (bowtie2)</BR>
+4. Sort and index the SAM/BAM files (samtools)</BR>
+5. Mark duplicates (PCR duplicates during library prep) (picard)</BR>
+6. Produce statistics and QC on BAM files (samstat, BamUtils)</BR>
+7. Call peaks to idnetify enriched regions, covered by MBD (MACS)</BR>
 
 
 
