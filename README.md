@@ -26,7 +26,7 @@ This toolbox works with all kinds of enrichment strategies, the example given he
 4. Sort and index the SAM/BAM files (samtools)</BR>
 5. Mark duplicates (PCR duplicates during library prep) (picard)</BR>
 6. Produce statistics and QC on BAM files (samstat, BamUtils)</BR>
-7. Call peaks to idnetify enriched regions, covered by MBD (MACS)</BR>
+7. Call peaks to identify enriched regions, covered by MBD (MACS)</BR>
 
 
 
