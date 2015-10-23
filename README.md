@@ -141,20 +141,16 @@ Other included scripts are examples of further analysis.
 
 > Example how to run BALM - also 'peak / enriched regions' based
 
-```script_BALM.sh```
+```script_BALM.sh ```
 
 > R scripts and utilities to create a count matrix around transcription start sites (TSS) or in 5 kb genomic windows
 
 ```script_count2000.R
-
 script_count2000_input.R
-
 script_count_windows.R
-
 TSS2000.bed
-
-windows_annotation.bed```
+windows_annotation.bed ```
 
 > R script demonstrating MEDIPS, an R/BioConductor package, calculating absolute methylation scores for all CG sites
 
-```script_MEDIPS.R```
+```script_MEDIPS.R ```
