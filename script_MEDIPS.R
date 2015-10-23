@@ -1,3 +1,12 @@
+# before running in R, need to create the BED files from the BAM files
+# can be done using bedtools - bamToBed tool, needs some processing afterwards, example given here:
+
+# bamToBed -i /home/mate/data/Other/test/1038_meth_nodups.bam > 1038_meth.bed
+# sort 1038_meth.bed -k1,1 -k2,2n -k3,3n -k6,6 -u > 1038_meth_sorted.bed
+# cut -f1,2,3,6- 1038_meth_sorted.bed > 1038_meth_medips.bed
+
+# This should be ran within R/BioConductor
+
 # libraries
 
 library(MEDIPS)
