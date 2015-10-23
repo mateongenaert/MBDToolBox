@@ -145,11 +145,13 @@ Other included scripts are examples of further analysis.
 
 > R scripts and utilities to create a count matrix around transcription start sites (TSS) or in 5 kb genomic windows
 
-```script_count2000.R
+```
+script_count2000.R
 script_count2000_input.R
 script_count_windows.R
 TSS2000.bed
-windows_annotation.bed ```
+windows_annotation.bed
+```
 
 > R script demonstrating MEDIPS, an R/BioConductor package, calculating absolute methylation scores for all CG sites
 
