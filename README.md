@@ -133,3 +133,26 @@ This toolbox works with all kinds of enrichment strategies, the example given he
 ```macs -t SRR629532.sorted_nodups.bam --outdir=OUT_macs/ --name=SRR629532_macspeaks -f BAM --petdist=200 -g hs --wig --single-profile ```
 
 > output: MACS peak files (Excel-file and BED files); WIG files for visualization, all in the *OUT_macs* directory
+
+
+# Other included scripts
+
+Other included scripts are examples of further analysis.
+
+> Example how to run BALM - also 'peak / enriched regions' based
+```script_BALM.sh```
+
+> R scripts and utilities to create a count matrix around transcription start sites (TSS) or in 5 kb genomic windows
+```script_count2000.R
+
+script_count2000_input.R
+
+script_count_windows.R
+
+TSS2000.bed```
+
+windows_annotation.bed```
+
+> R script demonstrating MEDIPS, an R/BioConductor package, calculating absolute methylation scores for all CG sites
+
+```script_MEDIPS.R```
