@@ -135,7 +135,7 @@ This toolbox works with all kinds of enrichment strategies, the example given he
 > output: MACS peak files (Excel-file and BED files); WIG files for visualization, all in the *OUT_macs* directory
 
 
-# Other included scripts
+# Alternative scripts
 
 Other included scripts are examples of further analysis.
 
@@ -147,10 +147,7 @@ Other included scripts are examples of further analysis.
 
 ```
 script_count2000.R
-script_count2000_input.R
-script_count_windows.R
 TSS2000.bed
-windows_annotation.bed
 ```
 
 > R script demonstrating MEDIPS, an R/BioConductor package, calculating absolute methylation scores for all CG sites
