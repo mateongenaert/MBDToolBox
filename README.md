@@ -34,7 +34,6 @@ This toolbox works with all kinds of enrichment strategies, the example given he
 
 ## Complete script:
 
-
 **1. Get the SRA-file (SRA repository, NCBI) and convert it to FASTQ files (paired-end) (SRAtoolkit)**
 > set some local options
 
@@ -44,11 +43,14 @@ This toolbox works with all kinds of enrichment strategies, the example given he
 
 ```curl ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX%2FSRX103%2FSRX1039196/SRR2040898/SRR2040898.sra -o 1509_MBD.sra```
 
+```curl ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX%2FSRX103%2FSRX1039241/SRR2040943/SRR2040943.sra -o 1509_input.sra```
+
 > output: downloaded SRA file
 
 > SRA to FASTQ reads, paired-end (--split-files used) and GZipped (giving two fastq.gz files: one with _1 and the other with _2, representing the paired reads)
 
 ```fastq-dump --split-files 1509_MBD.sra --gzip```
+```fastq-dump --split-files 1509_input.sra --gzip```
 
 > output: 2 fastq files, ending with _1 and _2, containing the paired reads
 
@@ -72,6 +74,8 @@ This toolbox works with all kinds of enrichment strategies, the example given he
 
 ```bowtie2 -q --phred33 --sensitive -X 500 --threads 8 -t -x bowtie2/hg19 -1 1509_MBD_1.fastq.gz -2 1509_MBD_2.fastq.gz | samtools view -bhSo 1509_MBD_unsorted.bam -```
 
+```bowtie2 -q --phred33 --sensitive -X 500 --threads 8 -t -x bowtie2/hg19 -1 1509_input_1.fastq.gz -2 1509_input_2.fastq.gz | samtools view -bhSo 1509_input_unsorted.bam -```
+
 > output: unsorted BAM file (Bowtie2 output SAM format, which is directly, on the fly converted to BAM using *samtools view* command; don't forget the "-" at the end of the command, it is required for this passing (pipe) to samtools to work
 
 > if you want to, you could remove all FASTQ files and the SRA
@@ -85,12 +89,14 @@ This toolbox works with all kinds of enrichment strategies, the example given he
 > sort BAM file using samtools
 
 ```samtools sort 1509_MBD_unsorted.bam 1509_MBD.sorted```
+```samtools sort 1509_input_unsorted.bam 1509_input.sorted```
 
 > output: sorted BAM file, ready for processing with Picard tools
 
 > if you want to, you could remove the unsorted BAM file
 
 ```rm 1509_MBD_unsorted.bam```
+```rm 1509_input_unsorted.bam```
 
 **5. Mark duplicates (PCR duplicates during library prep) (picard)**
 
@@ -98,15 +104,19 @@ This toolbox works with all kinds of enrichment strategies, the example given he
 
 ```java -Xmx8g -jar picard/picard.jar MarkDuplicates INPUT=1509_MBD.sorted.bam OUTPUT=1509_MBD.sorted_nodups.bam ASSUME_SORTED=true METRICS_FILE=Picard_1509_MBD_duplicates.txt```
 
+```java -Xmx8g -jar picard/picard.jar MarkDuplicates INPUT=1509_input.sorted.bam OUTPUT=1509_input.sorted_nodups.bam ASSUME_SORTED=true METRICS_FILE=Picard_1509_input_duplicates.txt```
+
 > output: sorted BAM file, with duplicate reads marked; run summary by Picard (including the read numbers, paired reads, reads marked duplicate)
 
 > if you want to, you could remove the BAM file without duplicates marked
 
 ```rm 1509_MBD.sorted.bam```
+```rm 1509_input.sorted.bam```
 
 > index sorted BAM file with duplicates flagged
 
 ```samtools index 1509_MBD.sorted_nodups.bam```
+```samtools index 1509_input.sorted_nodups.bam```
 
 > output: BAM indes, ending with .bam.bai
 
@@ -134,7 +144,7 @@ This toolbox works with all kinds of enrichment strategies, the example given he
 
 > call peaks and write a single WIG file for visualization in IGV etc. (--wig --single-profile)
 
-```macs -t 1509_MBD.sorted_nodups.bam --outdir=OUT_macs/ --name=1509_MBD_macspeaks -f BAM --petdist=200 -g hs --wig --single-profile ```
+```macs -t 1509_MBD.sorted_nodups.bam -c 1509_input.sorted_nodups.bam --outdir=OUT_macs/ --name=1509_MBD_macspeaks -f BAM --petdist=200 -g hs --wig --single-profile ```
 
 > output: MACS peak files (Excel-file and BED files); WIG files for visualization, all in the *OUT_macs* directory
 
