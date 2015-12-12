@@ -6,7 +6,11 @@ MBDToolBox - Docker container to support the data descriptor paper describing an
 Anneleen Decock, Maté Ongenaert, Wim Van Criekinge, Frank Speleman, Jo Vandesompele
 
 * **Methyl-CpG-binding domain sequencing reveals a prognostic methylation signature in neuroblastoma**
-Anneleen Decock, Maté Ongenaert, Robrecht Cannoodt, Kimberly Verniers, Bram De Wilde, Geneviève Laureys, Nadine Van Roy, Ana P. Berbegall, Julie Bienertova-Vasku, Nick Bown, Nathalie Clément, Valérie Combaret, Michelle Haber, Claire Hoyoux, Jayne Murray, Rosa Noguera, Gaelle Pierron, Gudrun Schleiermacher, Johannes H. Schulte, Ray L. Stallings, Deborah A. Tweddle for the Children’s Cancer and Leukaemia Group (CCLG), Katleen De Preter, Frank Speleman, Jo Vandesompele. Oncotarget, accepted
+Anneleen Decock, Maté Ongenaert, Robrecht Cannoodt, Kimberly Verniers, Bram De Wilde, Geneviève Laureys, Nadine Van Roy, Ana P. Berbegall, Julie Bienertova-Vasku, Nick Bown, Nathalie Clément, Valérie Combaret, Michelle Haber, Claire Hoyoux, Jayne Murray, Rosa Noguera, Gaelle Pierron, Gudrun Schleiermacher, Johannes H. Schulte, Ray L. Stallings, Deborah A. Tweddle for the Children’s Cancer and Leukaemia Group (CCLG), Katleen De Preter, Frank Speleman, Jo Vandesompele.
+
+Oncotarget, 2015
+doi: 10.18632/oncotarget.6477
+http://www.ncbi.nlm.nih.gov/pubmed/26646589
 
 # Tools:
 - sratoolkit (v2.5.4-1) - NCBI toolkit to work with files from SRA (e.g. convert SRA to FASTQ)
