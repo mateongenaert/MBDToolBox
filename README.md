@@ -176,10 +176,10 @@ TSS2000.bed
 
 ## Visualization
 
-**1. Get the TDF and BED.gz files from the GEO repositories (Cohort I:GSE69224; Cohort II: GSE69243)
+**1. Get the TDF and BED.gz files from the GEO repositories (Cohort I:GSE69224; Cohort II: GSE69243)**
 These files are in the "Supplementary file" section of GEO; you can download all these files at the same time
 
-**2. Decompress the combined archive if needed (if downloading multiple files) and place them in a directory with the supplied IGV session file (example for cohort II, file:"MBD cohort II.xml") and the sample annotations file ("annotations.txt")
+**2. Decompress the combined archive if needed (if downloading multiple files) and place them in a directory with the supplied IGV session file (example for cohort II, file:"MBD cohort II.xml") and the sample annotations file ("annotations.txt")**
 
-**3. Download and open IGV (https://www.broadinstitute.org/igv/) and load the session file.
+**3. Download and open IGV (https://www.broadinstitute.org/igv/) and load the session file.**
 Alternatively, individual tracks (TDF files and BED files) can be loaded.
