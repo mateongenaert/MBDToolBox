@@ -153,7 +153,9 @@ This toolbox works with all kinds of enrichment strategies, the example given he
 > output: MACS peak files (Excel-file and BED files); WIG files for visualization, all in the *OUT_macs* directory
 
 
-# Alternative scripts
+# Alternative scripts & visualization
+
+## Alternative scripts
 
 Other included scripts are examples of further analysis.
 
@@ -171,3 +173,13 @@ TSS2000.bed
 > R script demonstrating MEDIPS, an R/BioConductor package, calculating absolute methylation scores for all CG sites
 
 ```script_MEDIPS.R ```
+
+## Visualization
+
+**1. Get the TDF and BED.gz files from the GEO repositories (Cohort I:GSE69224; Cohort II: GSE69243)
+These files are in the "Supplementary file" section of GEO; you can download all these files at the same time
+
+**2. Decompress the combined archive if needed (if downloading multiple files) and place them in a directory with the supplied IGV session file (example for cohort II, file:"MBD cohort II.xml") and the sample annotations file ("annotations.txt")
+
+**3. Download and open IGV (https://www.broadinstitute.org/igv/) and load the session file.
+Alternatively, individual tracks (TDF files and BED files) can be loaded.
