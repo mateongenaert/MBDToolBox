@@ -1,0 +1,61 @@
+Track_ID	Age_diagnosis	INSS_stage	MYCN	OS_days	EFS_days	OS_status	ES_status
+41_MBD	49.90684932	4	non-amplified	569	NA	died of disease	event
+610_MBD	34.02739726	4	amplified	850	NA	died of disease	event
+928_MBD	11.7369863	4	amplified	412	NA	died of disease	event
+1430_MBD	35.4739726	4	non-amplified	520	391	died of disease	event
+1507_MBD	14.33424658	4	amplified	285	NA	died of disease	event
+1713_MBD	40.99726027	4	non-amplified	581	449	died of disease	event
+1780_MBD	30.90410959	3	amplified	569	NA	died of disease	event
+1782_MBD	41.49041096	4	amplified	707	441	died of disease	event
+1783_MBD	13.6109589	4	amplified	316	288	died of disease	event
+1784_MBD	76.5369863	4	amplified	1819	972	died of disease	event
+1786_MBD	15.02465753	4	amplified	950	607	died of disease	event
+1790_MBD	101.2931507	4	non-amplified	989	306	died of disease	event
+1791_MBD	51.32054795	4	non-amplified	377	357	died of disease	event
+1795_MBD	134.0383562	4	non-amplified	671	214	died of disease	event
+1796_MBD	24.2630137	4	non-amplified	414	NA	died of disease	event
+11_MBD	15.22191781	4	non-amplified	4396	4396	alive	no event
+1030_MBD	54.64109589	4	non-amplified	2653	2653	alive	no event
+1381_MBD	21.46849315	4	non-amplified	1981	1981	alive	no event
+1382_MBD	70.09315068	4	non-amplified	1891	1891	alive	no event
+1384_MBD	16.37260274	3	amplified	1620	1620	alive	no event
+1501_MBD	131.3753425	4	non-amplified	1558	1558	alive	event
+1515_MBD	15.97808219	4	non-amplified	1687	1687	alive	no event
+1647_MBD	10.06027397	2	amplified	2136	2136	alive	no event
+1649_MBD	8.745205479	4	amplified	2174	2174	alive	no event
+1789_MBD	25.18356164	3	amplified	5616	5616	alive	no event
+1793_MBD	32.54794521	3	amplified	2328	2328	alive	no event
+1794_MBD	33.23835616	3	amplified	5096	5096	alive	no event
+1800_MBD	71.07945205	4	amplified	1862	1862	alive	no event
+1803_MBD	19.36438356	4	amplified	2410	2410	alive	no event
+1863_MBD	168.6246575	4	non-amplified	1053	560	alive	event
+820_MBD	10.88219178	2	non-amplified	4794	4794	alive	no event
+822_MBD	12.82191781	1	non-amplified	1153	1153	alive	no event
+823_MBD	4.24109589	1	non-amplified	1090	1090	alive	no event
+912_MBD	0.164383562	1	non-amplified	2904	2904	alive	no event
+1028_MBD	3.484931507	2	non-amplified	2932	2932	alive	no event
+1038_MBD	11.4739726	2	non-amplified	1071	1071	alive	no event
+1039_MBD	7.956164384	3	non-amplified	1394	1394	alive	no event
+1469_MBD	1.446575342	1	non-amplified	3275	3275	alive	no event
+1476_MBD	22.22465753	2	non-amplified	2075	2075	alive	no event
+1483_MBD	0.690410959	1	non-amplified	2554	2554	alive	no event
+1484_MBD	1.347945205	1	non-amplified	2566	2566	alive	no event
+1486_MBD	11.50684932	1	non-amplified	2328	2328	alive	no event
+1488_MBD	2.432876712	2	non-amplified	1827	1827	alive	no event
+1509_MBD	1.019178082	3	non-amplified	2597	2597	alive	no event
+1646_MBD	4.109589041	2	non-amplified	2096	2096	alive	no event
+1530_MBD	0.098630137	4S	non-amplified	2039	2039	alive	no event
+1494_MBD	1.084931507	4S	non-amplified	1590	1590	alive	no event
+1615_MBD	0.295890411	4S	non-amplified	1562	1562	alive	no event
+1613_MBD	0.460273973	4S	non-amplified	1503	1503	alive	no event
+1191_MBD	1.709589041	4S	non-amplified	2105	2105	alive	no event
+1750_MBD	0.723287671	4S	non-amplified	1322	1322	alive	no event
+277_MBD	2.367123288	4S	non-amplified	2099	101	alive	event
+1392_MBD	3.484931507	4S	non-amplified	3190	3190	alive	no event
+821_MBD	2.038356164	4S	non-amplified	2652	2652	alive	no event
+750_MBD	8.482191781	4S	non-amplified	1567	1567	alive	no event
+1383_MBD	0.493150685	4S	non-amplified	2670	2670	alive	no event
+1013_MBD	2.432876712	4S	non-amplified	2252	2252	alive	no event
+511_MBD	3.682191781	4S	non-amplified	3837	3837	alive	no event
+520_MBD	0.328767123	4S	non-amplified	3703	3703	alive	no event
+1537_MBD	0.55890411	4S	amplified	2178	2178	alive	no event

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg19" hasGeneTrack="true" hasSequenceTrack="true" locus="chr5:140468568-140629443" path="MBD cohort II.xml" version="1">
+    <Resources>
+    	<Resource name="GC Percentage" path="http://www.broadinstitute.org/igvdata/annotations/hg19/hg19.gc5base.tdf"/>
+    	<Resource name="Ensemble Genes" path="http://www.broadinstitute.org/igvdata/annotations/hg19/EnsemblGenes.ensGene"/>
+    	<Resource hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=cpgIslandExt" name="CpG Islands" path="http://www.broadinstitute.org/igvdata/annotations/hg19/cpgIslands.hg19.bed"/>
+
+	<Resource name="41_MBD" path="GSM1695948_41_MBD.tdf"/>
+	<Resource name="41_peaks" path="GSM1695948_41_MBD_peaks.bed.gz"/>
+	<Resource name="610_MBD" path="GSM1695949_610_MBD.tdf"/>
+	<Resource name="610_peaks" path="GSM1695949_610_MBD_peaks.bed.gz"/>
+	<Resource name="928_MBD" path="GSM1695950_928_MBD.tdf"/>
+	<Resource name="928_peaks" path="GSM1695950_928_MBD_peaks.bed.gz"/>
+	<Resource name="1430_MBD" path="GSM1695951_1430_MBD.tdf"/>
+	<Resource name="1430_peaks" path="GSM1695951_1430_MBD_peaks.bed.gz"/>
+	<Resource name="1507_MBD" path="GSM1695952_1507_MBD.tdf"/>
+	<Resource name="1507_peaks" path="GSM1695952_1507_MBD_peaks.bed.gz"/>
+	<Resource name="1713_MBD" path="GSM1695953_1713_MBD.tdf"/>
+	<Resource name="1713_peaks" path="GSM1695953_1713_MBD_peaks.bed.gz"/>
+	<Resource name="1780_MBD" path="GSM1695954_1780_MBD.tdf"/>
+	<Resource name="1780_peaks" path="GSM1695954_1780_MBD_peaks.bed.gz"/>
+	<Resource name="1782_MBD" path="GSM1695955_1782_MBD.tdf"/>
+	<Resource name="1782_peaks" path="GSM1695955_1782_MBD_peaks.bed.gz"/>
+	<Resource name="1783_MBD" path="GSM1695956_1783_MBD.tdf"/>
+	<Resource name="1783_peaks" path="GSM1695956_1783_MBD_peaks.bed.gz"/>
+	<Resource name="1784_MBD" path="GSM1695957_1784_MBD.tdf"/>
+	<Resource name="1784_peaks" path="GSM1695957_1784_MBD_peaks.bed.gz"/>
+	<Resource name="1786_MBD" path="GSM1695958_1786_MBD.tdf"/>
+	<Resource name="1786_peaks" path="GSM1695958_1786_MBD_peaks.bed.gz"/>
+	<Resource name="1790_MBD" path="GSM1695959_1790_MBD.tdf"/>
+	<Resource name="1790_peaks" path="GSM1695959_1790_MBD_peaks.bed.gz"/>
+	<Resource name="1791_MBD" path="GSM1695960_1791_MBD.tdf"/>
+	<Resource name="1791_peaks" path="GSM1695960_1791_MBD_peaks.bed.gz"/>
+	<Resource name="1795_MBD" path="GSM1695961_1795_MBD.tdf"/>
+	<Resource name="1795_peaks" path="GSM1695961_1795_MBD_peaks.bed.gz"/>
+	<Resource name="1796_MBD" path="GSM1695962_1796_MBD.tdf"/>
+	<Resource name="1796_peaks" path="GSM1695962_1796_MBD_peaks.bed.gz"/>
+	<Resource name="11_MBD" path="GSM1695963_11_MBD.tdf"/>
+	<Resource name="11_peaks" path="GSM1695963_11_MBD_peaks.bed.gz"/>
+	<Resource name="1030_MBD" path="GSM1695964_1030_MBD.tdf"/>
+	<Resource name="1030_peaks" path="GSM1695964_1030_MBD_peaks.bed.gz"/>
+	<Resource name="1381_MBD" path="GSM1695965_1381_MBD.tdf"/>
+	<Resource name="1381_peaks" path="GSM1695965_1381_MBD_peaks.bed.gz"/>
+	<Resource name="1382_MBD" path="GSM1695966_1382_MBD.tdf"/>
+	<Resource name="1382_peaks" path="GSM1695966_1382_MBD_peaks.bed.gz"/>
+	<Resource name="1384_MBD" path="GSM1695967_1384_MBD.tdf"/>
+	<Resource name="1384_peaks" path="GSM1695967_1384_MBD_peaks.bed.gz"/>
+	<Resource name="1501_MBD" path="GSM1695968_1501_MBD.tdf"/>
+	<Resource name="1501_peaks" path="GSM1695968_1501_MBD_peaks.bed.gz"/>
+	<Resource name="1515_MBD" path="GSM1695969_1515_MBD.tdf"/>
+	<Resource name="1515_peaks" path="GSM1695969_1515_MBD_peaks.bed.gz"/>
+	<Resource name="1647_MBD" path="GSM1695970_1647_MBD.tdf"/>
+	<Resource name="1647_peaks" path="GSM1695970_1647_MBD_peaks.bed.gz"/>
+	<Resource name="1649_MBD" path="GSM1695971_1649_MBD.tdf"/>
+	<Resource name="1649_peaks" path="GSM1695971_1649_MBD_peaks.bed.gz"/>
+	<Resource name="1789_MBD" path="GSM1695972_1789_MBD.tdf"/>
+	<Resource name="1789_peaks" path="GSM1695972_1789_MBD_peaks.bed.gz"/>
+	<Resource name="1793_MBD" path="GSM1695973_1793_MBD.tdf"/>
+	<Resource name="1793_peaks" path="GSM1695973_1793_MBD_peaks.bed.gz"/>
+	<Resource name="1794_MBD" path="GSM1695974_1794_MBD.tdf"/>
+	<Resource name="1794_peaks" path="GSM1695974_1794_MBD_peaks.bed.gz"/>
+	<Resource name="1800_MBD" path="GSM1695975_1800_MBD.tdf"/>
+	<Resource name="1800_peaks" path="GSM1695975_1800_MBD_peaks.bed.gz"/>
+	<Resource name="1803_MBD" path="GSM1695976_1803_MBD.tdf"/>
+	<Resource name="1803_peaks" path="GSM1695976_1803_MBD_peaks.bed.gz"/>
+	<Resource name="1863_MBD" path="GSM1695977_1863_MBD.tdf"/>
+	<Resource name="1863_peaks" path="GSM1695977_1863_MBD_peaks.bed.gz"/>
+	<Resource name="820_MBD" path="GSM1695978_820_MBD.tdf"/>
+	<Resource name="820_peaks" path="GSM1695978_820_MBD_peaks.bed.gz"/>
+	<Resource name="822_MBD" path="GSM1695979_822_MBD.tdf"/>
+	<Resource name="822_peaks" path="GSM1695979_822_MBD_peaks.bed.gz"/>
+	<Resource name="823_MBD" path="GSM1695980_823_MBD.tdf"/>
+	<Resource name="823_peaks" path="GSM1695980_823_MBD_peaks.bed.gz"/>
+	<Resource name="912_MBD" path="GSM1695981_912_MBD.tdf"/>
+	<Resource name="912_peaks" path="GSM1695981_912_MBD_peaks.bed.gz"/>
+	<Resource name="1028_MBD" path="GSM1695982_1028_MBD.tdf"/>
+	<Resource name="1028_peaks" path="GSM1695982_1028_MBD_peaks.bed.gz"/>
+	<Resource name="1038_MBD" path="GSM1695983_1038_MBD.tdf"/>
+	<Resource name="1038_peaks" path="GSM1695983_1038_MBD_peaks.bed.gz"/>
+	<Resource name="1039_MBD" path="GSM1695984_1039_MBD.tdf"/>
+	<Resource name="1039_peaks" path="GSM1695984_1039_MBD_peaks.bed.gz"/>
+	<Resource name="1469_MBD" path="GSM1695985_1469_MBD.tdf"/>
+	<Resource name="1469_peaks" path="GSM1695985_1469_MBD_peaks.bed.gz"/>
+	<Resource name="1476_MBD" path="GSM1695986_1476_MBD.tdf"/>
+	<Resource name="1476_peaks" path="GSM1695986_1476_MBD_peaks.bed.gz"/>
+	<Resource name="1483_MBD" path="GSM1695987_1483_MBD.tdf"/>
+	<Resource name="1483_peaks" path="GSM1695987_1483_MBD_peaks.bed.gz"/>
+	<Resource name="1484_MBD" path="GSM1695988_1484_MBD.tdf"/>
+	<Resource name="1484_peaks" path="GSM1695988_1484_MBD_peaks.bed.gz"/>
+	<Resource name="1486_MBD" path="GSM1695989_1486_MBD.tdf"/>
+	<Resource name="1486_peaks" path="GSM1695989_1486_MBD_peaks.bed.gz"/>
+	<Resource name="1488_MBD" path="GSM1695990_1488_MBD.tdf"/>
+	<Resource name="1488_peaks" path="GSM1695990_1488_MBD_peaks.bed.gz"/>
+	<Resource name="1509_MBD" path="GSM1695991_1509_MBD.tdf"/>
+	<Resource name="1509_peaks" path="GSM1695991_1509_MBD_peaks.bed.gz"/>
+	<Resource name="1646_MBD" path="GSM1695992_1646_MBD.tdf"/>
+	<Resource name="1646_peaks" path="GSM1695992_1646_MBD_peaks.bed.gz"/>
+	
+	<Resource path="annotations.txt"/>
+	
+    </Resources>
+    <Panel height="167" name="DataPanel" width="1897">
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" colorScale="ContinuousColorScale;0.0;308.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="35" id="hg19_genes" name="RefSeq Genes" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="308.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" colorScale="ContinuousColorScale;0.0;537.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://www.broadinstitute.org/igvdata/annotations/hg19/EnsemblGenes.ensGene" name="Ensemble Genes" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="537.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="204,204,204" colorScale="ContinuousColorScale;0.0;247.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://www.broadinstitute.org/igvdata/annotations/hg19/cpgIslands.hg19.bed" name="CpG Islands" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="247.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="204,204,204" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://www.broadinstitute.org/igvdata/annotations/hg19/hg19.gc5base.tdf" name="GC Percentage" normalize="true" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+
+</Session>
