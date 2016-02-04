@@ -6,9 +6,9 @@ MBDToolBox - Docker container to support the data descriptor paper describing an
 
 Anneleen Decock, Maté Ongenaert, Wim Van Criekinge, Frank Speleman, Jo Vandesompele
 
-Scientific Data, 2016
-​doi:10.1038/sdata.2016.4
-http://www.ncbi.nlm.nih.gov/pubmed/26836295
+Scientific Data, 2016</BR>
+doi:10.1038/sdata.2016.4</BR>
+http://www.ncbi.nlm.nih.gov/pubmed/26836295</BR>
 
 * **Methyl-CpG-binding domain sequencing reveals a prognostic methylation signature in neuroblastoma**
 
