@@ -3,9 +3,15 @@ MBDToolBox - Docker container to support the data descriptor paper describing an
 
 ### References:
 * **DNA-methylation profiling of primary neuroblastoma tumors using methyl-CpG-binding domain sequencing (MBD-seq)**
+
 Anneleen Decock, Maté Ongenaert, Wim Van Criekinge, Frank Speleman, Jo Vandesompele
 
+Scientific Data, 2016
+​doi:10.1038/sdata.2016.4
+http://www.ncbi.nlm.nih.gov/pubmed/26836295
+
 * **Methyl-CpG-binding domain sequencing reveals a prognostic methylation signature in neuroblastoma**
+
 Anneleen Decock, Maté Ongenaert, Robrecht Cannoodt, Kimberly Verniers, Bram De Wilde, Geneviève Laureys, Nadine Van Roy, Ana P. Berbegall, Julie Bienertova-Vasku, Nick Bown, Nathalie Clément, Valérie Combaret, Michelle Haber, Claire Hoyoux, Jayne Murray, Rosa Noguera, Gaelle Pierron, Gudrun Schleiermacher, Johannes H. Schulte, Ray L. Stallings, Deborah A. Tweddle for the Children’s Cancer and Leukaemia Group (CCLG), Katleen De Preter, Frank Speleman, Jo Vandesompele.
 
 Oncotarget, 2015</BR>
